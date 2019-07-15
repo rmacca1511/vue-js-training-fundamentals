@@ -3,6 +3,8 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
+// All changes must go through a mutation
+
 export default new Vuex.Store({
   state: {
     cart: [],
