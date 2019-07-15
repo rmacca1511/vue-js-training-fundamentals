@@ -4,7 +4,7 @@
       <nav>
         <ul>
           <li class="nav-item">
-            <img src="./assets/build-a-bot-logo.png" alt="" class="logo">
+            <img class="logo" src="./assets/build-a-bot-logo.png" alt="">
             Build-a-Bot
           </li>
         </ul>
@@ -33,6 +33,9 @@ body {
   background: linear-gradient(to bottom, #555, #999);
   background-attachment: fixed;
 }
+</style>
+
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
