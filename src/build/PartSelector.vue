@@ -1,6 +1,5 @@
 <template>
   <div class="part" :class="position" >
-    {{ pinPadding }}
     <router-link :to="{
         name: 'Parts',
         params: {
