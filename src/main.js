@@ -4,11 +4,15 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import pinDirective from './shared/pin-directive';
+import currencyFilter from './shared/currency-filter';
 
-// Making Directives Available Globally
+
+// Making directives available globally
 Vue.config.productionTip = false;
 Vue.directive('pin', pinDirective);
 
+// Making filters available globally
+Vue.filter('currency', currencyFilter);
 
 Vue.config.productionTip = false;
 
